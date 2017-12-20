@@ -1,0 +1,20 @@
+{
+  "version":"1.0",
+  "userName": "Firstname Lastname",
+  "managerName": "Firstname Lastname",
+  "dateArchived": "YYYY-MM-DD",
+  "dateUpdated": "YYYY-MM-DD",
+  "userId": "jaxid",
+  "managerUserId":"jaxid",
+  "folderPath": "/<ctartico/bhartico>/expired-accounts/yyyy/<jaxid/labid>/",
+  "reason": "<contractor(C)/summer student(S)/regular employee(R)>",
+  "notes": "Any other tag/information from PI/IT",
+  "tarFiles": [
+      "user-CT-helix-home-001.tar.gz",
+      "user-BH-cadillac-home-001.tar.gz",
+      "user-CT-helix-data-001.tar.gz",
+      "user-CT-helix-data-002.tar.gz",
+      "user-CT-helix-data-003.tar.gz",
+      "<userid/labid>-<location>-<source/cluster>-<directory>-<001>.tar.gz"
+  ]
+}

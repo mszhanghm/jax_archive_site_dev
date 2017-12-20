@@ -1,0 +1,71 @@
+{
+ "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://archive.jax.org/faculty",
+    "properties": {
+        "archiveFolderPath": {
+            "type": "string"
+        },
+        "archiveLeaseReviewDate": {
+            "type": "string"
+        },
+        "checksumFile": {
+            "type": "string"
+        },
+        "compressedByIT": {
+            "type": "string"
+        },
+        "contactEmail": {
+            "type": "string"
+        },
+        "dataType": {
+            "type": "string"
+        },
+        "dateArchived": {
+            "type": "string"
+        },
+        "dateUpdated": {
+            "type": "string"
+        },
+        "fileList": {
+            "type": "string"
+        },
+        "grantIdentifier": {
+            "type": "string"
+        },
+        "isControlled": {
+            "type": "string"
+        },
+        "managerName": {
+            "type": "string"
+        },
+        "managerUserId": {
+            "type": "string"
+        },
+        "notes": {
+            "type": "string"
+        },
+        "projectName": {
+            "type": "string"
+        },
+        "sourceFolderPath": {
+            "type": "string"
+        },
+        "tarFiles": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "userId": {
+            "type": "string"
+        },
+        "userName": {
+            "type": "string"
+        },
+        "version": {
+            "type": "string"
+        }
+    },
+    "type": "object"
+}

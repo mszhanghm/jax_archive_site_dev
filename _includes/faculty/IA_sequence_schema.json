@@ -1,0 +1,169 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "archivedPath": {
+            "type": "string"
+        },
+        "checksumFile": {
+            "type": "string"
+        },
+        "customerProjectName": {
+            "type": "string"
+        },
+        "dateArchived": {
+            "type": "string"
+        },
+        "dateDelivered": {
+            "type": "string"
+        },
+        "dateReceived": {
+            "type": "string"
+        },
+        "dateUpdated": {
+            "type": "string"
+        },
+        "deliveryPath": {
+            "type": "string"
+        },
+        "density": {
+            "type": "string"
+        },
+        "error": {
+            "type": "string"
+        },
+        "fileList": {
+            "type": "string"
+        },
+        "flowCellId": {
+            "type": "string"
+        },
+        "grantID": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "groupName": {
+            "type": "string"
+        },
+        "gtProjectName": {
+            "type": "string"
+        },
+        "instrument": {
+            "type": "string"
+        },
+        "investigatorID": {
+            "type": "string"
+        },
+        "investigatorName": {
+            "type": "string"
+        },
+        "isControlledData": {
+            "type": "string"
+        },
+        "labAssociation": {
+            "type": "string"
+        },
+        "labLocation": {
+            "type": "string"
+        },
+        "moleculeType": {
+            "type": "string"
+        },
+        "notes": {
+            "type": "string"
+        },
+        "pctClusterPF": {
+            "type": "string"
+        },
+        "pctErrorRate": {
+            "type": "string"
+        },
+        "pctPhiX": {
+            "type": "string"
+        },
+        "pctQ30": {
+            "type": "string"
+        },
+        "projectId": {
+            "type": "string"
+        },
+        "readsM": {
+            "type": "string"
+        },
+        "runCompleteDate": {
+            "type": "string"
+        },
+        "runId": {
+            "type": "string"
+        },
+        "runStartDate": {
+            "type": "string"
+        },
+        "runType": {
+            "type": "string"
+        },
+        "samples": {
+            "items": {
+                "properties": {
+                    "concentration": {
+                        "type": "string"
+                    },
+                    "erccSpike": {
+                        "type": "string"
+                    },
+                    "flowcellLane": {
+                        "type": "string"
+                    },
+                    "protocol": {
+                        "type": "string"
+                    },
+                    "rawFileType": {
+                        "type": "string"
+                    },
+                    "sampleID": {
+                        "type": "string"
+                    },
+                    "sampleName": {
+                        "type": "string"
+                    },
+                    "species": {
+                        "type": "string"
+                    },
+                    "totalReads": {
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "softwareInformation": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "submittedToExternal": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "totalYield": {
+            "type": "string"
+        },
+        "userID": {
+            "type": "string"
+        },
+        "userName": {
+            "type": "string"
+        },
+        "version": {
+            "type": "string"
+        }
+    },
+    "type": "object"
+}

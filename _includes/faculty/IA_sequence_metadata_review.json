@@ -1,0 +1,85 @@
+{
+  "version": "1.0",
+  "deliveryPath": "/gt_delivery/path/to/metadata/file",
+  "archivedPath": "/path/on/the/archive",
+  "investigatorName": "Name",
+  "investigatorID": "pijaxid",
+  "userName": "Lab Member Name",
+  "userID": "Lab Member jaxid",
+  "groupName": "groupid e.g. user-lab",
+  "labLocation": "BH",
+  "labAssociation": "internal/external",
+  "isControlledData": "no",
+  "submittedToExternal": [
+    "sra32423",
+    "other23234"
+  ],
+  "grantID": [
+    "grant2342",
+    "gramt2342"
+  ],
+  "dateArchived": "YYYY-MM-DD",
+  "dateUpdated": "YYYY-MM-DD",
+  "error": "",
+  "checksumFile": "file with checksums for all files in folder",
+  "fileList": "file with list of all files being delivered in folder",
+  "gtProjectName": "GT Project Name Alphanumeric",
+  "projectId": "16TST-005-OUP-run3 - Project ID",
+  "customerProjectName": "Customer Project Name Alphanumeric",
+  "runId": "161216_K00384_0014_HG3FTBBXX",
+  "runType": "run type",
+  "dateReceived": "2016-12-16",
+  "runStartDate": "2016-12-16",
+  "runCompleteDate": "2016-12-19",
+  "dateDelivered": "2016-12-19",
+  "flowCellId": "Flow Cell ID",
+  "pctQ30": "83.47",
+  "density": "2355",
+  "pctPhiX": "0",
+  "readsM": "482.99",
+  "totalYield": "826.63",
+  "moleculeType": "rna seq",
+  "pctErrorRate": "0",
+  "pctClusterPF": "7549",
+  "instrument": "CT_Illumina_HiSeq4000_K00384",
+  "softwareInformation": [
+    "BCL2Fastq_2.17.123",
+    "Another software with version"
+  ],
+  "notes": "Any notes useful for lab/research",
+  "samples": [
+    {
+      "sampleID": "2390",
+      "sampleName": "16TST-005-Fir_c30_SP3D_S__L004_R1_001.fastq.gz",
+      "species": "Mouse",
+      "concentration": "GT_NA",
+      "protocol": "GT_NA",
+      "erccSpike": "GT_NA",
+      "totalReads": "265934239",
+      "rawFileType": "Fastq",
+      "flowcellLane": "001"
+    },
+    {
+      "sampleId": "2388",
+      "sampleName": "16TST-005-Fir_29_SP3D__S2_L002_R1_001.fastq.gz",
+      "species": "Mouse",
+      "concentration": "GT_NA",
+      "protocol": "GT_NA",
+      "erccSpike": "GT_NA",
+      "totalReads": "317386874",
+      "rawFileType": "Fastq",
+      "flowcellLane": "001"
+    },
+    {
+      "sampleId": "2387",
+      "sampleName": "16TST-005-Fir_21_SP3D_1_L001_R1_001.fastq.gz",
+      "species": "Mouse",
+      "concentration": "GT_NA",
+      "protocol": "GT_NA",
+      "erccSpike": "GT_NA",
+      "totalReads": "329778146",
+      "rawFileType": "Fastq",
+      "flowcellLane": "001"
+    }
+  ]
+}

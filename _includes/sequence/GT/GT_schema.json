@@ -1,0 +1,106 @@
+{
+  "$schema": "http://archive.jax.org/sequence/GT/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type":"string"
+    },
+    "GT_Project_Name_ID": {
+      "type": "string"
+    },
+    "Flow_Cell_ID": {
+      "type": "string"
+    },
+    "PCT_Q30": {
+      "type": "string"
+    },
+    "Sample_1": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "Sample_2": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "Run_Start_Date": {
+      "type": "string"
+    },
+    "Cusomter_Project_Name": {
+      "type": "string"
+    },
+    "Density": {
+      "type": "string"
+    },
+    "Date_Received": {
+      "type": "string"
+    },
+    "PCT_Phix": {
+      "type": "string"
+    },
+    "Reads_M": {
+      "type": "string"
+    },
+    "Instrument": {
+      "type": "string"
+    },
+    "Run_Complete_Date": {
+      "type": "string"
+    },
+    "Total_Yield": {
+      "type": "string"
+    },
+    "HIPPA": {
+      "type": "string"
+    },
+    "Date_Delivered": {
+      "type": "string"
+    },
+    "Software": {
+      "type": "string"
+    },
+    "Application": {
+      "type": "string"
+    },
+    "Run_ID": {
+      "type": "string"
+    },
+    "Notes": {
+      "type": "string"
+    },
+    "PCT_Error_Rate": {
+      "type": "string"
+    },
+    "PCT_Cluster_PF": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "version",
+    "GT_Project_Name_ID",
+    "Flow_Cell_ID",
+    "PCT_Q30",
+    "Sample_1",
+    "Sample_2",
+    "Run_Start_Date",
+    "Cusomter_Project_Name",
+    "Density",
+    "Date_Received",
+    "PCT_Phix",
+    "Reads_M",
+    "Instrument",
+    "Run_Complete_Date",
+    "Total_Yield",
+    "HIPPA",
+    "Date_Delivered",
+    "Software",
+    "Application",
+    "Run_ID",
+    "Notes",
+    "PCT_Error_Rate",
+    "PCT_Cluster_PF"
+  ]
+}

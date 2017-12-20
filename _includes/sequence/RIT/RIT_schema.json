@@ -1,0 +1,206 @@
+{
+  "$schema": "http://archive.jax.org/sequence/RIT/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type":"string"
+    },
+    "gtProjectName": {
+      "type": "string"
+    },
+    "flowCellId": {
+      "type": "string"
+    },
+    "pctQ30": {
+      "type": "string"
+    },
+    "runStartDate": {
+      "type": "string"
+    },
+    "customerProjectName": {
+      "type": "string"
+    },
+    "density": {
+      "type": "string"
+    },
+    "dateReceived": {
+      "type": "string"
+    },
+    "pctPhiX": {
+      "type": "string"
+    },
+    "readsM": {
+      "type": "string"
+    },
+    "instrument": {
+      "type": "string"
+    },
+    "runCompleteDate": {
+      "type": "string"
+    },
+    "totalYield": {
+      "type": "string"
+    },
+    "dateDelivered": {
+      "type": "string"
+    },
+    "softwareInformation": {
+      "type": "string"
+    },
+    "moleculeType": {
+      "type": "string"
+    },
+    "runId": {
+      "type": "string"
+    },
+    "pctErrorRate": {
+      "type": "string"
+    },
+    "pctClusterPF": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "runType": {
+      "type": "string"
+    },
+    "investigatorName": {
+      "type": "string"
+    },
+    "groupName": {
+      "type": "string"
+    },
+    "labLocation": {
+      "type": "string"
+    },
+    "labAssociation": {
+      "type": "string"
+    },
+    "isControlledData": {
+      "type": "string"
+    },
+    "deliveryPath": {
+      "type": "string"
+    },
+    "archivedPath": {
+      "type": "string"
+    },
+    "submittedToExternal": {
+      "type": "string"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "dateArchived": {
+      "type": "string"
+    },
+    "dateUpdated": {
+      "type": "string"
+    },
+    "userId": {
+      "type": "string"
+    },
+    "error": {
+      "type": "string"
+    },
+    "tarFiles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "samples": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "sampleGTId": {
+            "type": "string"
+          },
+          "sampleName": {
+            "type": "string"
+          },
+          "species": {
+            "type": "string"
+          },
+          "concentration": {
+            "type": "string"
+          },
+          "protocol": {
+            "type": "string"
+          },
+          "erccSpike": {
+            "type": "string"
+          },
+          "totalReads": {
+            "type": "string"
+          },
+          "rawFileType": {
+            "type": "string"
+          },
+          "flowcellLane": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "sampleGTId",
+          "sampleName",
+          "species",
+          "concentration",
+          "protocol",
+          "erccSpike",
+          "totalReads",
+          "rawFileType",
+          "flowcellLane",
+          "id"
+        ]
+      }
+    }
+  },
+  "required": [
+    "version",
+    "gtProjectName",
+    "flowCellId",
+    "pctQ30",
+    "runStartDate",
+    "customerProjectName",
+    "density",
+    "dateReceived",
+    "pctPhiX",
+    "readsM",
+    "instrument",
+    "runCompleteDate",
+    "totalYield",
+    "dateDelivered",
+    "softwareInformation",
+    "moleculeType",
+    "runId",
+    "pctErrorRate",
+    "pctClusterPF",
+    "notes",
+    "id",
+    "runType",
+    "investigatorName",
+    "groupName",
+    "labLocation",
+    "labAssociation",
+    "isControlledData",
+    "deliveryPath",
+    "archivedPath",
+    "submittedToExternal",
+    "userName",
+    "dateArchived",
+    "dateUpdated",
+    "userId",
+    "error",
+    "tarFiles",
+    "samples"
+  ]
+}

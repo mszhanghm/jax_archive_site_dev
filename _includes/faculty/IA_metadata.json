@@ -1,0 +1,25 @@
+{
+  "version":"1.0",
+  "contactEmail":"investigator e-mail",
+  "userName": "Firstname Lastname",
+  "managerName": "Firstname Lastname",
+  "dateArchived": "YYYY-MM-DD",
+  "dateUpdated": "YYYY-MM-DD",
+  "userId": "jaxid",
+  "managerUserId":"jaxid",
+  "sourceFolderPath":"",
+  "grantIdentifier":"Strings:separatedBy:colons",
+  "projectName":"project-name:string",
+  "archiveLeaseReviewDate":"data archived + 1 year",
+  "dataType":"type of data - tags separatedBy : sequence:research:images",
+  "isControlled":"list of controlled separatedBy colon HIPPA:PHI, or N",
+  "compressedByIT":"Y/N",
+  "notes": "any notes provided by investigator",
+  "archiveFolderPath": "/<ctartico/bhartico>/<s-data>/faculty/investigatorid/jaxid/yyyymmdd/projectname>/",
+  "checksumFile":"/pathonarchive",
+  "fileList":"/pathonarchive",
+  "tarFiles": [
+    "data-001.tar.gz",
+    "<projectname>-<001>.tar.gz"
+  ]
+}
