@@ -1,6 +1,7 @@
 ---
 layout: page
-#title: Genome Technology Archive File Formats
+title: Genome Technology Archive File Formats
+exclude_from_nav: true
 permalink: "/sequence/GT/"
 GT_metadata: /sequence/GT/GT_Metadata.json
 GT_schema: /sequence/GT/GT_schema.json

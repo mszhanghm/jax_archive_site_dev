@@ -16,7 +16,7 @@ The three core tracks currently in progress are:
   * Scientific Services
     * Genome Technologies Data
 
-[More details](/).
+[More details]({{ "/" | relative_url }}).
 
 <br/>
 

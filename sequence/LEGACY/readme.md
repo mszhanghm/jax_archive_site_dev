@@ -1,5 +1,7 @@
 ---
 layout: page
+title: Legacy metadata
+exclude_from_nav: true
 permalink: "/sequence/LEGACY/"
 LEGACY_metadata: /sequence/LEGACY/RIT_legacy_metadata.json
 LEGACY_schema: /sequence/LEGACY/RIT_legacy_schema.json

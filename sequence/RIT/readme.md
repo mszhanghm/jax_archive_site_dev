@@ -1,6 +1,7 @@
 ---
 layout: page
-# title: RIT File Formats
+title: RIT File Formats
+exclude_from_nav: true
 permalink: "/sequence/RIT/"
 RIT_metadata: /sequence/RIT/RIT_metadata.json
 RIT_schema: /sequence/RIT/RIT_schema.json

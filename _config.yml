@@ -19,7 +19,7 @@ email: research-it@jax.org
 description: > # this means to ignore newlines until "baseurl:"
       Documentation for JAX-Archive. This repository maintains documentation 
       about the data process, workflows and metadata for data going to Quantum Archive.
-baseurl: "/jax_archive_jekyll_dev" # the subpath of your site, e.g. /blog
+baseurl: "/jax_archive_site_dev" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Other Server (Change to server address)
 # url: "ctritweb.jax.org:8082" 

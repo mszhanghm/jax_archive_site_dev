@@ -9,7 +9,7 @@ permalink: /
 
 This GitHub repository maintains documentation about the data process, workflows and metadata for data going to Quantum Archive.
 
-Further details at: [About](/about).
+Further details at: [About]({{ "/about" | relative_url }}).
 
 <br/>
 
@@ -17,8 +17,8 @@ Further details at: [About](/about).
 
 <br/>
 
-<!---
-## [sequence](/sequence/)
+
+## [sequence]({{ "/sequence/" | relative_url }})
   - `/GT`
 
   GT folder contains fields and metadata defined for sequence data from Genome Technologies Service.
@@ -34,7 +34,8 @@ Further details at: [About](/about).
   ---
 
   <br/>
--->
+
+<!---
 ## [faculty](/faculty/)
 
 This folder contains formats for archiving data from individual researchers and labs.
@@ -46,8 +47,8 @@ The and process and naming standards for research data on the archive are define
 ---
 
 <br/>
-
-## [expired-accounts](/expired-accounts/)
+-->
+## [expired-accounts]({{ "/expired-accounts/" | relative_url }})
 
 This folder contains formats for archiving expired accounts on the clusters.
 
@@ -71,7 +72,7 @@ A copy of files from GT/RIT/individual-accounts/expired-accounts will be made av
 
 <br/>
 
-## [Posts](/home)
+## [Posts]({{ "/home" | relative_url }})
 
 <br/>
 
